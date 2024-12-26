@@ -1,0 +1,83 @@
+@font-face{
+	font-family: 'Barbie';
+	src: url(../fonts/Barbie.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: 'Satisfy';
+	src: url(..fonts/Satisfy.ttf) format('truetype');
+}
+
+.container{
+	width: 280px;
+	height: 336px;
+	border: 1px solid darkred;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background: url(../images/group.png) no-repeat center;
+
+}
+
+
+.title{
+	font-family: 'Barbie';
+	font-size: 4em;
+	color: darkred;
+	position: absolute;
+	letter-spacing: 1px;
+	left: 50%;
+	top: 520px;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	width: 300px;
+}
+
+
+.type{
+	font-family: 'Barbie';
+	font-size: .32em;
+	color: darkgreen;
+	position: absolute;
+	letter-spacing: 0.5px;
+	left: 50%;
+	top: -250px;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	width: 300px;
+
+}
+
+.desc {
+	font-family: 'Satisfy';
+	font-size: .5em;
+	text-align: center;
+	color: darkgreen;
+	letter-spacing: .2px;
+	padding: 0 5px 0 5px;
+	
+}
+
+.link{
+	font-family: 'Barbie';
+	font-size: 18px;
+	text-align: center;
+	font-color: goldenrod;
+	margin: auto;
+	margin-top: 10px;
+	display: block;
+	border: solid 2px dark goldenrod;
+	width: 275px;
+	line-height: 10px;
+	padding: 10px 0 0px 0;
+	text-decoration: none;
+	transition: 0.5s;
+
+}
+
+.link:hover{
+	color: white;
+	background: darkgreen;
+	transition: 0.5s;
+}
